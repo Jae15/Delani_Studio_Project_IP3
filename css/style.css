@@ -1,9 +1,35 @@
-
-body {
-    background-color: blueviolet;
-    height: 100vh;
-
-    background-image: url(Images/assets/backgrounds/h_img.jpg);
+*,
+* ::after,
+* ::before {
+  margin: 0;
+  padding: -4px;
+  box-sizing: inherit;
 }
 
+html {
+  font-size: 62.5%;
+}
 
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: black;
+  padding: 3rem;
+}
+
+.header {
+  height: 95vh;
+  background-size: cover;
+  position: relative;
+  background-image: url();
+}
+
+.logo-box {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
