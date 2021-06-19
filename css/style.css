@@ -34,3 +34,10 @@ body {
   align-content: center;
   flex-direction: column;
 }
+
+.main-text {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
