@@ -67,15 +67,16 @@ img {
   font-size: 10px;
   font-weight: lighter;
   margin: auto;
-  background-color: aliceblue;
 }
 
 .services {
   background-size: cover;
   background-image: url(../Images/s_image.jpg);
-  background-color: teal;
   position: relative;
   height: 50vh;
+  text-align: center;
+  align-content: center;
+  color: white;
 }
 
 .about-us {
@@ -83,8 +84,23 @@ img {
   letter-spacing: 1;
 }
 
-.portfolio:hover{
+.portfolio:hover {
   transform: scale(1.1);
   opacity: 0.6;
   transition: transform 1s;
+}
+
+.contact {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url(../Images/c_image.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h6 {
+  text-align: center;
 }

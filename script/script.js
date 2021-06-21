@@ -26,17 +26,24 @@
 // })\
 
 $(document).ready(function () {
-    $("div.what_we_do").hide();
+    $("div.design-content").hide();
+    $("div.development-content").hide();
+    $("div.product-content").hide();
 
-    $(".design, div.what_we_do").click(function(){
-        $("div.what_we_do, .design").toggle();
+    $(".design, div.design-content").click(function(){
+        $("div.design-content, .design").toggle();
 
     })
-    
-    //    $(".design, div.what_we_do).click(function () { 
-    //     $("div.what_we_do, .design").toggle();
-    // });
 
+    $(".development, div.development-content").click(function(){
+        $("div.developmenet-content, .development").toggle();
+
+    })
+
+    $(".product, div.product-content").click(function(){
+        $("div.developmenet-content, .development").toggle();
+
+    })
     
     });
 
