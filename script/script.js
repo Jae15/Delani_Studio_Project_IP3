@@ -25,30 +25,36 @@
 
 // })\
 
-// $(document).ready(function () {
-//     $("div.design-content").hide();
+$(document).ready(function () {
+    $("div.what_we_do").hide();
+
+    $(".design, div.what_we_do").click(function(){
+        $("div.what_we_do, .design").toggle();
+
+    })
     
-//        $("#imgdesign, div.design").click(function () { 
-//         $("div.design, #imgdesign").toggle();
-//     });
+    //    $(".design, div.what_we_do).click(function () { 
+    //     $("div.what_we_do, .design").toggle();
+    // });
 
     
-//     });
+    });
 
 
-$(document).ready(function(){
-    $(".design").click(function(){
-        $(".design-content").show();
-        $(this).hide()
-    })
+// $(document).ready(function(){
+//     $(".design").click(function(){
+//         $(".design-content").show();
+//         $(this).hide()
+//     })
 
-    $(".development").click(function(){
-        $(".development-content").show();
-        $(this).hide()
-    })
+//     $(".development").click(function(){
+//         $(".development-content").show();
+//         $(this).hide()
+//     })
 
-    $(".product").click(function(){
-        $(".product-content").show();
-        $(this).hide()
-    })
-})
+//     $(".product").click(function(){
+//         $(".product-content").show();
+//         $(this).hide()
+//     })
+// })
+
