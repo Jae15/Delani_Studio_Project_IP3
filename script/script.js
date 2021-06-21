@@ -25,20 +25,30 @@
 
 // })\
 
-$(document).ready(function () {
-    $("div.design-content").hide();
+// $(document).ready(function () {
+//     $("div.design-content").hide();
     
-       $("#imgdesign, div.design").click(function () { 
-        $("div.design, #imgdesign").toggle();
-
-
-
-    });
+//        $("#imgdesign, div.design").click(function () { 
+//         $("div.design, #imgdesign").toggle();
+//     });
 
     
-    
-    
-    
-    
-    
-    });
+//     });
+
+
+$(document).ready(function(){
+    $(".design").click(function(){
+        $(".design-content").show();
+        $(this).hide()
+    })
+
+    $(".development").click(function(){
+        $(".development-content").show();
+        $(this).hide()
+    })
+
+    $(".product").click(function(){
+        $(".product-content").show();
+        $(this).hide()
+    })
+})
