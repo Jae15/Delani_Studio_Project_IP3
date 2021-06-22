@@ -1,6 +1,6 @@
 # Delani_Studio_Project_IP3
 
-## This a website of a fictional studio. It uses text, different icons, and images to describe the studio, services offered, portfolio, and contact information form. This website has been built using HTML, CSS, Javascript, Bootstrap, and JQuery tools.
+## This is a website of a fictional studio. It uses text, different icons, and images to describe the studio, services offered, portfolio, and contact information form. This website has been built using HTML, CSS, Javascript, Bootstrap, and JQuery tools.
 ​
 ## **Contributors**
 #### The website project was fully done by: **Janet Mwangi**
