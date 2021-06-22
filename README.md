@@ -6,11 +6,8 @@
 #### The website project was fully done by: **Janet Mwangi**
 
 ## **Setup/Installation**
-clone the repo: https://github.com/Janet15/Delani_Studio_Project_IP3.git
-#### No installation required.You only need access with a connected device to the internet with working browser(Chrome browser is advisable).
-* Clone the repo
-$ git clone https://github.com/Janet15/Akan_Name_IP.git
-
+* Clone the repo 
+* $ git clone https://github.com/Janet15/Delani_Studio_Project_IP3.git
 * Open the project on vs code or a code editor of your choice.
 * Open the project on live server
 
