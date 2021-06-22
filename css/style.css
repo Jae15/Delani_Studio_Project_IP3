@@ -136,5 +136,8 @@ h6 {
 
 #footer{
   width: 80%;
+}
 
+form{
+  opacity: 0.5;
 }

@@ -22,8 +22,10 @@ $(document).ready(function () {
     
     });
 
-    // document.getElementById("btn").addEventListener("click". function(){
-    //     alert("Thank you for contacting us");
-    // });
+    document.getElementById("btn").addEventListener("click",function(){
+        alert("Thank you for contacting us");
+    })
+
+    
 
 
